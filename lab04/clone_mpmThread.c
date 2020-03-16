@@ -22,8 +22,8 @@ int main(int argc, char *argv[])
         const int STACK_SIZE = 65536;
         char *stack, *stackTop, tempch;
         int cret;
-	x = 0;
-	y = 1;
+        x = 0;
+        y = 1;
 
         stack = malloc(STACK_SIZE);
         if (stack == NULL) {
@@ -31,8 +31,7 @@ int main(int argc, char *argv[])
                 exit(1);
         }
         stackTop = stack + STACK_SIZE;
-         pid_t pid, ppid;
-
+        pid_t pid, ppid;
        	pid  = getpid();
 
 	printf ("\nThis is process(thread) %d.\n", pid);
