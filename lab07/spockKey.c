@@ -1,4 +1,3 @@
-// From: http://beej.us/guide/bgipc/output/html/multipage/mq.html
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
@@ -25,7 +24,7 @@ int main(void)
         perror("msgget");
         exit(1);
     }
-    
+
     printf("spock: ready to receive messages, captain.\n");
 
     for(;;) { /* Spock never quits! */
