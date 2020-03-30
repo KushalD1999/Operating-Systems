@@ -1,4 +1,3 @@
-// From: http://beej.us/guide/bgipc/output/html/multipage/mq.html
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
